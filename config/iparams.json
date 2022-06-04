@@ -1,0 +1,15 @@
+{
+ "telegramBotKey": {
+  "display_name": "Telegram Bot Key",
+  "description": "The API key of the telegram bot which is going to send messages",
+  "type": "text",
+  "required": true,
+  "secure": true
+  },
+  "chatId": {
+    "display_name": "Chat Id",
+    "description": "The Chat ID to which the updates should be sent",
+    "type": "text",
+    "required": true
+  }
+}
