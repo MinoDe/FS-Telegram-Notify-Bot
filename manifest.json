@@ -1,0 +1,21 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshservice": {
+      "events": {
+        "onTicketCreate": {
+          "handler": "onTicketCreateHandler"
+        }
+      }
+    }
+  },
+  "dependencies": {
+  },
+  "whitelisted-domains": [
+    "https://api.telegram.org"
+  ],
+  "engines": {
+    "node": "14.19.2",
+    "fdk": "8.2.0"
+  }
+}
